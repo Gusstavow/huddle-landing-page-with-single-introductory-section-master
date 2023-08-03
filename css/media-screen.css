@@ -1,0 +1,123 @@
+@media screen and (min-width:800px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+
+    main {
+
+
+
+        background-image: none;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+
+    }
+
+    #container {
+        flex-direction: row;
+        max-width: 1440px;
+        min-width: 795px;
+
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 500px; */
+        gap: 80px;
+    }
+
+    .imagem {
+
+        min-width: 900px;
+
+
+    }
+
+    .imagem-logo {
+        max-width: 200px;
+        
+
+    }
+
+    section#imagens {
+        display: flex;
+        width: 100%;
+
+    }
+
+
+
+    img#titulo-logo {
+
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    section#imagens img#mockup-img {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 25px 0px;
+
+    }
+
+    section#info {
+
+        max-width:40%;
+        min-width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 0px
+
+
+
+    }
+
+    section#info h1 {
+        font-family: var(--font-headings);
+        text-align: left;
+        font-size: 2em;
+        width: 80%;
+        align-self: flex-start;
+        
+
+
+    }
+
+    section#info p {
+        text-align: left;
+        line-height: 25px;
+
+
+    }
+
+    section#info button{
+        border-style: none;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.342);
+        background-color: rgb(255, 255, 255);
+        border-radius: 1.5em;
+        
+        min-width: 40%;
+        max-width: 200px;
+        height: 35px;
+        color: var(--violet); 
+        align-self: flex-start;
+    }
+
+    section#info div#redes-sociais-icons{
+    
+       
+       align-self:  flex-end;
+       margin:0px ;
+       
+    }
+
+}
