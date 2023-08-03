@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+:root{
+    --violet:hsl(257, 40%, 49%);
+    --soft-magenta:hsl(300, 69%, 71%);
+    
+    --font-body: 'Open Sans', sans-serif;
+    --font-headings: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    background-color: var(--violet);
+    font-family: var(--font-body);
+    color: white
+}
+
+main{
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    
+    max-width: 375px;
+    min-width: 200px
+}
+
+section#imagens{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    padding-bottom: 30px;
+   
+    
+    
+}
+
+.imagem{
+    max-width: 300px;
+    
+}
+
+.imagem-logo{
+    max-width: 125px;
+    align-self:flex-start;
+    
+}
+
+section#imagens img#titulo-logo{
+    width: 100%;
+    
+    margin:0px 0px 30px 0px;
+    
+    
+}
+
+section#imagens img#mockup-img{
+    width: 100%;
+    margin: 25px 0px;
+}
+
+section#info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+   padding: 0px 30px;
+
+}
+
+section#info h1{
+    font-family: var(--font-headings);
+    text-align: center;
+    
+    
+}
+
+section#info p{
+    text-align: center;
+    line-height: 25px;
+    
+
+}
+
+section#info button{
+    border-style: none;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.342);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5em;
+    
+    min-width: 60%;
+    max-width: 200px;
+    height: 35px;
+    color: var(--violet);
+}
+
+
+section#info div#redes-sociais-icons{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section#info a i{
+    color: aliceblue;
+    font-size: 1.6em;
+    padding: 5px;
+}
+
+section#info button:hover{
+    background-color: #af59e6;
+    color: white;
+    cursor: pointer;
+}
+
+section#info div#redes-sociais-icons i:hover{
+    color: #af59e6;
+    cursor: pointer;
+}
