@@ -2,7 +2,7 @@
     body {
         background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: top center;
     }
 
@@ -27,12 +27,13 @@
         justify-content: center;
         align-items: center;
         /* margin-right: 500px; */
-        gap: 80px;
+        gap: 60px;
     }
 
     .imagem {
 
-        min-width: 900px;
+        min-width: 500px;
+        max-width: 900px;
 
 
     }
